@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+/* logo section styling  */
+.logo-heading{
+    font-family: sans-serif;
+    letter-spacing: 4px;
+}
+/* left icons styling  */
+.comment-icon i{
+    color: white;
+    background-color: black;
+    padding: 6px;
+}
+.folder-icon i{
+    color: white;
+    background-color: turquoise;
+    padding: 6px;
+}
+.star-icon i{
+    color: white;
+    background-color: yellow;
+    padding: 6px;
+}
+.camera-icon i{
+    color: white;
+    background-color: grey;
+    padding: 6px;
+}
+.comments-icon i{
+    color: white;
+    background-color: darkgreen;
+    padding: 6px;
+}
+.address-card-icon i{
+    color: white;
+    background-color: rgb(29, 221, 55);
+    padding: 6px;
+}
+.star-icon2 i{
+    color: white;
+    background-color: rgb(216, 13, 182);
+    padding: 6px;
+}
+.mug-icon i{
+    color: white;
+    background-color: black;
+    padding: 6px;
+}
+/* blue-section styling  */
+.blue-section{
+    color: white;
+    background-color: rgb(6, 167, 196);
+    transform: skewY(-11deg);
+}
+.container-content{
+    margin: 0 auto;
+    transform: skewY(11deg);
+}
+.frismedia-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.frismedia-heading{
+    position: relative;
+    top: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.blue-section-row{
+    align-items: center;
+    justify-content: center;
+}
+/* pink-section styling */
+
+.pink-section{
+    background-color: rgb(226, 21, 148);
+    transform: skewY(-11deg);
+}
+.pink-section-heading{
+    display: flex;
+}
+.first-img-row{
+    display: flex;
+}
+
+.yellow-section{
+    background-color: yellow;
+    transform: skewY(-11deg);
+}
+.first-yellow-section-img-row{
+    display: flex;
+}
+
+
+/* industry-section styling */
+
+.industry-img{
+    transform: skewY(-11deg);
+}
+
+/* green-section styling */
+
+.green-section{
+    background-color: rgb(84, 151, 6);
+    transform: skewY(-11deg);
+}
+.green-section-img-pargh{
+    margin-bottom: 100px;
+    display: flex;
+}
+
+
+/* black-section styling */
+
+.black-section{
+    background-color: black;
+    /* transform: skewY(-11deg); */
+}
+/* .black-section::before{
+    content: '';
+    width: 50%;
+    height: 100%;
+    border-bottom: 100px solid red;
+    border-left: 100px solid transparent;
+} */
+
+@media screen and (min-device-width: 320px) and (max-device-width: 450px) { 
+.green-section-img-pargh{
+    display: inline;
+}
+
+}
